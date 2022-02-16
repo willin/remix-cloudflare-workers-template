@@ -4,3 +4,9 @@ node_modules
 /build
 /dist
 /public/build
+/.mf
+_build/
+
+*log
+*.log*
+.DS_Store
