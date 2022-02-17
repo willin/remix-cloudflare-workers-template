@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       name: 'Server',
-      script: 'miniflare --build-command "node ./scripts/build.js" --watch',
+      script: 'miniflare ./build/index.js --watch',
       watch: ['./build/assets.json'],
       autorestart: false,
       env: {
